@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+/* luckiest-guy-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/luckiest-guy-v25-latin-regular.woff2') format('woff2');
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v31-latin-regular.woff2') format('woff2');
+}
+
+header {
+    background-color: #e74c3c;
+    display: flex;
+    justify-content: space-between; /* Texte à gauche, barres à droite */
+    align-items: center;
+    color: white;
+    font-family: 'Luckiest Guy', "Lucida Grande", sans-serif;
+    font-size: 2.75rem;
+    height: 75px;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.barre {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    text-align: justify;
+    margin: 40px;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', "Lucida Grande", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+img {
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    font-family: 'Luckiest Guy', "Lucida Grande", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    background-color: #2a6fdb;
+    padding: 20px 0;
+}
