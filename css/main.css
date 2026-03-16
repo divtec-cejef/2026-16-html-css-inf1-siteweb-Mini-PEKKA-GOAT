@@ -138,3 +138,11 @@ nav a {
     text-align: center;
     width: 100%;
 }
+
+li {
+    width: fit-content;
+}
+
+nav a {
+    font-size: 85px;
+}
