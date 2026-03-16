@@ -77,3 +77,25 @@ footer {
     background-color: #2a6fdb;
     padding: 20px 0;
 }
+
+.nav-bg {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+.nav-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #E8392A;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.nav-bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #2E5BFF;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}

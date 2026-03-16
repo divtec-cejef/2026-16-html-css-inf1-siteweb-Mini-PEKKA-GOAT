@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<button class="burger-btn" id="burgerBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<div class="nav-overlay" id="navOverlay">
+    <div class="nav-bg"></div>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Les Arènes</a>
+        <a href="#">Les Modes de Jeu</a>
+        <a href="#">Les Decks</a>
+        <a href="#">La Version Bêta</a>
+        <a href="#">Les Types de Récompenses</a>
+        <a href="#">Les Clans</a>
+        <a href="#">Vidéo Gameplay</a>
+    </nav>
+</div>
+
+<script>
+    const btn = document.getElementById('burgerBtn');
+    const overlay = document.getElementById('navOverlay');
+
+    btn.addEventListener('click', () => {
+        overlay.classList.toggle('open');
+        btn.classList.toggle('open');
+    });
+</script>
 
 </body>
 </html>
