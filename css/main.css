@@ -76,6 +76,9 @@ footer {
     color: white;
     background-color: #2a6fdb;
     padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
 }
 
 .nav-bg {
