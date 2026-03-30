@@ -75,7 +75,7 @@ footer {
     text-align: center;
     color: white;
     background-color: #2a6fdb;
-    padding: 20px 0;
+
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -91,7 +91,7 @@ footer {
     content: '';
     position: absolute;
     inset: 0;
-    background: #E8392A;
+    background: #2a6fdb;
     clip-path: polygon(0 0, 100% 0, 0 100%);
 }
 
@@ -99,7 +99,7 @@ footer {
     content: '';
     position: absolute;
     inset: 0;
-    background: #2E5BFF;
+    background: #e74c3c;
     clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
 
@@ -148,4 +148,46 @@ li {
 
 nav a {
     font-size: 85px;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 75px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+    margin: 75px auto ;
+    text-align: center;
+    max-width: 600px;
+}
+
+th {
+    background-color: #2a6fdb;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    padding: 14px 20px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #fde8e8;
+}
+
+.trophees {
+    background-color: #e74c3c;
 }
