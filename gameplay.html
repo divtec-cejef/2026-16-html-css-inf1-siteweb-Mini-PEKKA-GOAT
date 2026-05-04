@@ -8,9 +8,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="manifest" href="favicon/site.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- AMÉLIORATION : meta description ajoutée pour le référencement -->
-    <meta name="description" content="Clash-Wiki : toutes les infos nécessaires sur Clash Royale, le jeu de stratégie médiéval-fantasy.">
-    <title>Accueil</title>
+    <meta name="description" content="Clash-Wiki : vidéo tutoriel officiel de Clash Royale pour comprendre les bases du gameplay.">
+    <title>Gameplay</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -28,30 +27,21 @@
     </div>
 </header>
 
-<h1>Accueil</h1>
+<h1>Gameplay</h1>
 
-<h2>Bienvenue sur clash wiki. Ici vous trouverez toutes les infos
-    nécessaires sur clash royale</h2>
+<p>Voici une vidéo du tutoriel de Clash Royale.
+    <a href="index.html">(voir page accueil)</a> pour plus de précision.</p>
 
-<img src="./img/image-1-Accueil.jpg" alt="image tour Clash Royale">
-
-<!-- CORRECTION : "créature" → "créatures" -->
-<p>Clash royale se déroule dans un univers médiéval-fantasy
-    où coexistent royaumes, clans et créatures aux pouvoirs variés.</p>
-
-<p>Ici chaque joueur incarne un souverain chargé de diriger une sélection
-    de 8 cartes de son choix. Les combats prennent place dans différentes
-    arènes, l'objectif étant de réussir à réduire les Points de vie des
-    tours adversaires à 0.</p>
-
-<!-- CORRECTION : "de tour" → "de tours" -->
-<p>A la fin du temps réglementaire, le joueur ayant perdu le plus de tours,
-    perd la partie mais si les deux joueurs ont perdu le même nombre de tours,
-    la partie continue pendant 2 minutes encore.</p>
-
-<p>Si encore une fois à la fin de ce temps, les joueurs ont encore le même
-    nombre de tours restantes, c'est le joueur qui a la tour avec le moins
-    de point de vie qui perd la partie.</p>
+<!-- CORRECTION : class="video" retiré de l'iframe, ajout de width/height 100% -->
+<div class="video">
+    <iframe style="width:100%; height:100%;"
+            src="https://www.youtube.com/embed/zqviv3l0Rug?autoplay=1&mute=1&controls=1&rel=0"
+            title="Tutoriel Clash Royale"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+    </iframe>
+</div>
 
 <footer>
     &copy;Valentin Allimann 2026
@@ -68,5 +58,6 @@
         </a>
     </div>
 </footer>
+
 </body>
 </html>
