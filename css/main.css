@@ -419,6 +419,9 @@ body {
         gap: 16px;
     }
 
+    div nav a {
+        font-size: 14px;
+    }
     ul {
         font-size: 1rem;
         margin-bottom: 60px;
