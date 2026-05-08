@@ -62,6 +62,19 @@
         </a>
     </div>
 </footer>
+<script>
+    let lastScroll = 0;
+    const header = document.querySelector('header');
 
+    window.addEventListener('scroll', () => {
+        const current = window.scrollY;
+        if (current > lastScroll && current > 80) {
+            header.style.transform = 'translateY(-100%)';
+        } else {
+            header.style.transform = 'translateY(0)';
+        }
+        lastScroll = current;
+    });
+</script>
 </body>
 </html>

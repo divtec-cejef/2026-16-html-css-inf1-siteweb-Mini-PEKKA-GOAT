@@ -41,6 +41,7 @@ header {
     padding: 0 20px;
     position: sticky;
     top: 0;
+    transition: transform 0.3s ease;
 }
 
 /* =============================================
@@ -264,10 +265,9 @@ tr:hover {
    VIDÉO RESPONSIVE (PAGE GAMEPLAY)
    ============================================= */
 .video {
-    width: 100%;
-    max-width: 1600px;
-    height: 800px;
-    margin: auto;
+    width: 320px;
+    height: 180px;
+    margin: 20px 40px;
     display: block;
 }
 
@@ -319,7 +319,8 @@ body {
 
     .video {
         width: 100%;
-        height: 250px;
+        height: 220px;
+        margin: 10px auto;
     }
 
     body {
@@ -404,7 +405,8 @@ body {
 
     .video {
         width: 100%;
-        height: 250px;
+        height: 220px;
+        margin: 10px auto;
     }
 
     body {
