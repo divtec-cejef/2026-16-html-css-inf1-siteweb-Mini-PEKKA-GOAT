@@ -188,7 +188,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
 }
 
 nav a {
@@ -197,7 +197,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     width: 100%;
-    font-size: 85px;
+    font-size: 60px;
 }
 
 li {
@@ -327,11 +327,11 @@ body {
     }
 
     nav a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     nav {
-        gap: 16px;
+        gap: 10px;
     }
 
     ul {
@@ -412,16 +412,13 @@ body {
     }
 
     nav a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     nav {
-        gap: 16px;
+        gap: 10px;
     }
 
-    div nav a {
-        font-size: 14px;
-    }
     ul {
         font-size: 1rem;
         margin-bottom: 60px;
