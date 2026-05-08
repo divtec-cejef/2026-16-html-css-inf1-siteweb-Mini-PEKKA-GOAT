@@ -99,7 +99,7 @@ img {
    ============================================= */
 footer {
     font-family: 'Luckiest Guy', "Lucida Grande", sans-serif;
-    font-size: 3rem;
+    font-size: 1.8rem;
     text-align: center;
     color: white;
     background-color: #2a6fdb;
@@ -124,8 +124,8 @@ footer {
 }
 
 .footer-logos img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     box-shadow: none;
 }
